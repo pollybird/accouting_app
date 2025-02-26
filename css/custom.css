@@ -1,0 +1,70 @@
+/* css/custom.css */
+
+.main {
+    margin-bottom: 80px;
+}
+
+/* 全局紫色调 */
+
+
+/* 替换 Bootstrap 主要颜色为深紫 */
+.btn-primary,
+.bg-primary,
+.text-primary {
+    background-color: #800080 !important;
+    border-color: #800080 !important;
+    color: white !important;
+}
+
+/* 替换 Bootstrap 次要颜色为浅紫 */
+.btn-secondary,
+.bg-secondary,
+.text-secondary {
+    background-color: #ff8c00 !important;
+    border-color: #ff8c00 !important;
+    color: white !important;
+}
+
+/* 强调部分使用橙色 */
+.btn-danger,
+.alert-warning {
+    background-color: #ff8c00 !important;
+    border-color: #ff8c00 !important;
+    color: white !important;
+}
+
+/* 微调页面间距 */
+/* 调整搜索表单与其他元素的间距 */
+.form-inline.mt-3 {
+    margin-top: 1.5rem !important;
+}
+
+/* 调整表格与其他元素的间距 */
+.table {
+    margin-top: 1.5rem !important;
+}
+
+/* 调整 Accordion 与其他元素的间距 */
+.accordion {
+    margin-top: 1.5rem !important;
+}
+
+/* 调整底部菜单的高度和内边距 */
+.fixed-bottom.bg-purple {
+    height: 60px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* 调整菜单项的内边距 */
+.navbar-light .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+}
+
+.page-title {
+    text-align: center; /* 标题文本居中显示 */
+    width: 100%; /* 占据整行宽度 */
+    color: #800080; /* 白色字体颜色 */
+    padding: 10px 0; /* 上下内边距为 10px，左右为 0 */
+    margin-bottom: 20px; /* 标题下方的外边距为 20px */
+}
